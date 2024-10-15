@@ -2,11 +2,11 @@
     background-color: #220202;
 }
 
-.habilidades-pd {
+.habilidades {
     padding-top: 93px;
 }
 
-.habilidades-pd h2 { 
+.habilidades h2 { 
     text-align: center;
     padding-bottom: 70px;
 }
@@ -19,7 +19,7 @@
     padding-bottom: 70px;
 }
 
-.conteiner-skills {
+.container-skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@
 
 }
 @media (max-width:950px) {
-    .conteiner-skills {
+    .container-skills {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;

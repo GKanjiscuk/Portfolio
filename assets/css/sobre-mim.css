@@ -3,7 +3,7 @@
     background-color: #430000;
 }
 
-.ajustador-2 {
+.container {
     padding: 144px 0;
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +94,7 @@
 }
 
 @media (max-width:1200px) {
-    .ajustador-2 {
+    .container {
         justify-content: center;
         text-align: center;
     }
@@ -107,7 +107,7 @@
         font-size: 30px;
     }
 
-    .ajustador-2 p {
+    .container p {
         font-size: 15px;
     }
     .sobre-mim p {
@@ -120,7 +120,7 @@
     .circulo {
         display: none;
     }
-    .ajustador-2 {
+    .container {
         max-width: 350px;
         padding: 70px 30px;
     }
