@@ -47,18 +47,19 @@ button:hover {
 .projetos a {
     display: inline;
 }
-.demoquerycy{
-    background-image: url(../img/demoquerycy.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-.demoquerycy:hover{
+
+.pro:hover{
     height: 210px;
     width: 340px;
     animation: ease-in-out 0.3s;
 }
-.demoquerycy> a{
+
+.pro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pro> a{
     width: 100%;
     height: 100%;
 }
@@ -73,6 +74,9 @@ button:hover {
     cursor: pointer;
     overflow: hidden;
     transition: ease-in-out 0.3s;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .pro div p {

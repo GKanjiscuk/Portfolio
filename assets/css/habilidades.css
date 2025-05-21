@@ -102,60 +102,49 @@
     opacity: 0;
 }
 
-.skill1{
+.skill-html{
     background-image: url(../img/html2.svg);
 }
 
-.skill2 {
+.skill-css {
     background-image: url(../img/css2.svg);
 }
 
-.skill3 {
+.skill-js {
     background-image: url(../img/js2.svg);
 }
 
-.skill4 {
-    background-image: url(../img/python-svgrepo-com.svg);
-}
-
-.skill5 {
-    background-image: url(../img/php2.svg);
-}
-
-.skill6 {
-    background-image: url(../img/java2.svg);
-}
-
-.skill7 {
-    background-image: url(../img/react2.svg);
-}
-
-.skill9 {
+.skill-git {
     background-image: url(../img/git2.svg);
 }
 
 
-.skill10 {
+.skill-github {
     background-image: url(../img/github2.svg);
 }
 
-.skill11 {
+.skill-bootstrap {
     background-image: url(../img/bootstrap2.svg);
 }
 
-.skill12 {
+.skill-ts {
     background-image: url(../img/typescript2.svg);
 }
 
-.skill13 {
-    background-image: url(../img/sass2.svg);
+.skill-react {
+    background-image: url(../img/react.svg);
 }
 
 .skill-python{
     background-image: url(../img/python-svgrepo-com.svg);
     background-size: 106px;
 }
-
+.skill-tailwind{
+    background-image: url(../img/tailwind.svg);
+}
+.skill-node{
+    background-image: url(../img/node.svg);
+}
 #fundo {
     fill: red;
 }
