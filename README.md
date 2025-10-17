@@ -2,7 +2,7 @@
 
 > Um portfólio de desenvolvedor fullstack interativo e moderno, construído com as mais novas tecnologias do ecossistema React para criar uma experiência de usuário fluida e memorável.
 
-![Screenshot do Portfólio](src/assets/screenshot.png)
+![Screenshot do Portfólio](src/assets/Screenshot.png)
 
 ### [➡️ Ver Site Ao Vivo](https://giovannikanjiscuk.com) 
 
