@@ -27,10 +27,10 @@ export const Navigation = () => {
         target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-orange-400 transition-colors">
           <Mail size={24} />
         </a>
-        <a href="https://github.com/giovannikanjiscuk" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-orange-400 transition-colors">
+        <a href="https://github.com/GKanjiscuk" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-orange-400 transition-colors">
           <GithubIcon className="w-6 h-6 fill-current" />
         </a>
-        <a href="https://linkedin.com/in/GKanjiscuk" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-orange-400 transition-colors">
+        <a href="https://linkedin.com/in/giovanni-kanjiscuk" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-orange-400 transition-colors">
           <LinkedinIcon className="w-6 h-6 fill-current" />
         </a>
       </div>
