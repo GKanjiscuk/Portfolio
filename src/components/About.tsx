@@ -82,8 +82,11 @@ export const About = () => {
           <p className="mt-4">
             Com uma base sólida em Java para o Backend e React para o Frontend,
             eu busco sempre a melhor performance, escalabilidade e experiência
-            do usuário em cada projeto que desenvolvo.
+            do usuário em cada projeto que desenvolvo. 
+            
           </p>
+
+          <p className="mt-4">Atualmente estou no curso de <b>Desenvolvimento de Software Multiplataforma - Fatec São José dos Campos</b>, onde tenho aprimorado minhas habilidades técnicas e colaborativas, estando aberto para novas oportunidades profissionais e desafios que me permitam crescer ainda mais na área de desenvolvimento.</p>
 
 
           <div className="mt-8">
