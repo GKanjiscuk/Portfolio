@@ -9,7 +9,7 @@ export const Footer = () => {
       viewport={{ once: true }}
       transition={{ duration: 1.0, delay: 0.3 }}
     >
-      <h2 className="text-3xl lg:text-5xl font-bold">Vamos Conversar?</h2>
+      <h2 className="text-3xl lg:text-5xl font-bold">Entre em contato</h2>
       <p className="text-gray-400 mt-4">
         Estou sempre aberto a novas oportunidades e colaborações.
       </p>
