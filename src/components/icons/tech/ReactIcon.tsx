@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Este é o <path> correto para o logo do React
 export const ReactIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
     <title>React</title>

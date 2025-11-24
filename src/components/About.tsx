@@ -18,7 +18,6 @@ import {
   SiFigma,
 } from "react-icons/si";
 
-// Adicionei o FaDownload aqui nas importações
 import { FaJava, FaAws, FaDownload } from "react-icons/fa6";
 
 const skills = [
@@ -65,7 +64,7 @@ export const About = () => {
       </motion.h2>
 
       <motion.div
-        className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start" // Mudei items-center para items-start para alinhar melhor com o botão
+        className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}

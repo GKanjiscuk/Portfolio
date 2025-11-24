@@ -16,10 +16,10 @@ export const Footer = () => {
       <a
         href="https://mail.google.com/mail/?view=cm&fs=1&to=giovannikanjiscuk@gmail.com"
         target="_blank"
-        className="group inline-flex items-center justify-center mt-8 text-lg text-orange-400 border border-orange-400 rounded-full px-8 py-3 hover:bg-orange-400 hover:text-gray-900 transition-all duration-300"
+        className="group inline-flex flex-col md:flex-row items-center justify-center mt-8 text-lg text-orange-400 border border-orange-400 rounded-full px-6 py-4 md:px-8 md:py-3 hover:bg-orange-400 hover:text-gray-900 transition-all duration-300 h-auto gap-1 md:gap-2 mx-auto"
       >
-        Mande um E-mail
-        <span className="ml-2 text-sm text-gray-500 group-hover:text-gray-700">
+        <span>Mande um E-mail</span>
+        <span className="text-xs md:text-sm text-gray-500 group-hover:text-gray-700 font-normal">
           (giovannikanjiscuk@gmail.com)
         </span>
       </a>

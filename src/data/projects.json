@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "title": "Plataforma de Gerenciamento de Tarefas - TaskManager",
+    "subtitle": "Uma plataforma virtual completa com Java e React",
+    "technologies": [
+      "React",
+      "Java",
+      "Spring Boot",
+      "MongoDB",
+      "Spring Security"
+    ],
+    "link": "https://github.com/GeneSys-fatec/API-3DSM",
+    "status": "Concluído",
+    "description": "O TaskManager é uma solução robusta para gestão de produtividade. O objetivo era criar um sistema onde times pudessem colaborar em tempo real, com atualizações instantâneas de status e métricas de desempenho individual.",
+    "contributions": [
+      "Atuei como Desenvolvedor Fullstack, desenvolvendo tanto componentes visuais em React quanto a arquitetura de microsserviços em Java do projeto.",
+      "Auxiliei no desenvolvimento de toda a camada de segurança utilizando Spring Security e JWT para autenticação.",
+      "Implementação de componentes React reutilizáveis para garantir consistência visual em toda a aplicação.",
+      "Modelei o banco de dados MongoDB para suportar alta escalabilidade de registros de tarefas."
+    ],
+    "softSkills": [
+      {
+        "name": "Solução de Problemas",
+        "description": "Atuei na resolução de conflitos complexos de integração entre diferentes features do Java, diagnosticando erros de comunicação entre módulos e implementando correções que garantiram a estabilidade do sistema."
+      },
+      {
+        "name": "Proatividade",
+        "description": "Mantive um ritmo de trabalho constante e autogerenciado, buscando ativamente novas tarefas, refatorações ou documentações para adiantar sempre que finalizava minhas entregas prioritárias."
+      },
+      {
+        "name": "Autonomia e Aprendizado Ágil",
+        "description": "Conduzi o desenvolvimento de funcionalidades completas de forma independente. Mesmo diante de lacunas de conhecimento técnico, pesquisei e apliquei novas soluções por conta própria para garantir a entrega."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sistema de Dashboard Financeiro",
+    "subtitle": "Aplicação para controle de finanças de empresas parceiras",
+    "technologies": ["React", "TypeScript", "Next.JS", "MySQL", "Chart.js"],
+    "link": "https://github.com/ORBIS-2DSM-API/orbis-main",
+    "status": "Em Desenvolvimento",
+    "description": "Dashboard interativo focado em oferecer visualização clara da saúde financeira. O desafio principal foi transformar dados brutos e complexos em gráficos intuitivos para tomadores de decisão não-técnicos.",
+    "contributions": [
+      "Desenvolvi a lógica de processamento de dados no front-end para reduzir a carga no servidor.",
+      "Criei a integração com a biblioteca Chart.js para renderizar gráficos dinâmicos de fluxo de caixa.",
+      "Implementei o sistema de exportação de relatórios em PDF e Excel automatizados.",
+      "Refatorei o código legado de JavaScript para TypeScript, aumentando a segurança e manutenibilidade."
+    ],
+    "softSkills": [
+      {
+        "name": "Pensamento Crítico",
+        "description": "Analisei os requisitos de negócio e sugeri a mudança de renderização Client-Side para Server-Side (Next.js), melhorando o SEO e a performance inicial."
+      },
+      {
+        "name": "Proatividade",
+        "description": "Mantive um ritmo de trabalho constante e autogerenciado, buscando ativamente novas tarefas, refatorações ou documentações para adiantar sempre que finalizava minhas entregas prioritárias."
+      },
+      {
+        "name": "Assertividade",
+        "description": "Durante as code reviews, fui capaz de apontar falhas estruturais no código dos colegas de forma construtiva, propondo soluções que foram adotadas pelo time."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "DemoQuerycy - Dados dos Vereadores",
+    "subtitle": "Plataforma de dados sobre a atuação dos vereadores de SJC",
+    "technologies": ["JavaScript", "Python", "HTML5", "CSS3", "MySQL", "Flask"],
+    "link": "https://github.com/AgileKrakens/DemoQuerycy",
+    "status": "Concluído",
+    "description": "A plataforma apresenta dados sobre a atuação dos vereadores de São José dos Campos (mandato 2020-2024) de forma objetiva, visual e acessível. O projeto visa traduzir dados legislativos complexos em informações visuais para o cidadão.",
+    "contributions": [
+      "Liderei o desenvolvimento do Front-end, traduzindo os protótipos de alta fidelidade do Figma para código funcional, garantindo fidelidade visual e responsividade.",
+      "Atuei no Back-end auxiliando na criação e manutenção dos scripts de Web Scraping em Python (BeautifulSoup/Selenium) para a extração inicial dos dados do portal da câmara.",
+      "Realizei a integração completa entre a interface do usuário e o Back-end, consumindo os dados processados para gerar visualizações dinâmicas.",
+      "Implementei a lógica de filtragem e busca no lado do cliente (Client-Side) para otimizar a experiência de navegação nos relatórios."
+    ],
+    "softSkills": [
+      {
+        "name": "Adaptabilidade Técnica",
+        "description": "Demonstrei flexibilidade ao atuar fora da minha zona de conforto principal (Front-end), mergulhando no código Python para auxiliar a equipe de dados na estruturação dos scrapers."
+      },
+      {
+        "name": "Trabalho em Equipe",
+        "description": "Atuei como uma ponte entre o time de Design e o Back-end, garantindo que as interfaces desenhadas fossem tecnicamente viáveis e que os dados coletados fossem exibidos corretamente."
+      },
+      {
+        "name": "Foco na Experiência do Usuário",
+        "description": "Priorizei a usabilidade na construção das interfaces, transformando planilhas de dados brutos em layouts intuitivos que facilitam o entendimento político por parte do usuário final."
+      }
+    ]
+  }
+]
