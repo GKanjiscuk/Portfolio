@@ -28,7 +28,7 @@ export const Projects = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        Projetos Selecionados
+        Projetos Desenvolvidos
       </motion.h2>
 
       <div className="w-full">
