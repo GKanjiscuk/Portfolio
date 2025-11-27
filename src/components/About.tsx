@@ -85,7 +85,7 @@ export const About = () => {
             
           </p>
 
-          <p className="mt-4">Atualmente estou no curso de <b>Desenvolvimento de Software Multiplataforma - Fatec São José dos Campos</b>, onde tenho aprimorado minhas habilidades técnicas e colaborativas, estando aberto para novas oportunidades profissionais e desafios que me permitam crescer ainda mais na área de desenvolvimento.</p>
+          <p className="mt-4">Atualmente, curso <b>Desenvolvimento de Software Multiplataforma</b> na Fatec São José dos Campos, onde tenho aprimorado minhas habilidades técnicas e colaborativas. Estou aberto a novas oportunidades profissionais e desafios que me permitam crescer ainda mais na área de desenvolvimento.</p>
 
 
           <div className="mt-8">
