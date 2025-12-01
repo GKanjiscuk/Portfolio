@@ -2,35 +2,36 @@
   {
     "id": 1,
     "title": "Plataforma de Gerenciamento de Tarefas - TaskManager",
-    "subtitle": "Uma plataforma virtual completa com Java e React",
+    "subtitle": "Sistema de Gestão de Produtividade e Colaboração",
     "technologies": [
       "React",
       "Java",
       "Spring Boot",
+      "Spring Security",
       "MongoDB",
-      "Spring Security"
+      "Docker"
     ],
     "link": "https://github.com/GeneSys-fatec/API-3DSM",
     "status": "Concluído",
-    "description": "O TaskManager é uma solução robusta para gestão de produtividade. O objetivo era criar um sistema onde times pudessem colaborar em tempo real, com atualizações instantâneas de status e métricas de desempenho individual.",
+    "description": "O TaskManager é uma solução robusta para gestão de produtividade corporativa. O objetivo primordial foi arquitetar um ecossistema digital onde equipes multidisciplinares pudessem colaborar em tempo real, dispondo de atualizações instantâneas de status e métricas detalhadas de desempenho individual, assegurando a fluidez operacional.",
     "contributions": [
-      "Atuei como Desenvolvedor Fullstack, desenvolvendo tanto componentes visuais em React quanto a arquitetura de microsserviços em Java do projeto.",
-      "Auxiliei no desenvolvimento de toda a camada de segurança utilizando Spring Security e JWT para autenticação.",
-      "Implementação de componentes React reutilizáveis para garantir consistência visual em toda a aplicação.",
-      "Modelei o banco de dados MongoDB para suportar alta escalabilidade de registros de tarefas."
+      "O desenvolvimento Fullstack foi conduzido através da implementação de uma arquitetura de microsserviços em Java, visando garantir a modularidade, o baixo acoplamento e a escalabilidade vertical do backend.",
+      "A camada de segurança foi estruturada utilizando o framework Spring Security integrado ao padrão JWT, assegurando a integridade, a confidencialidade e a autenticidade das transações de dados.",
+      "A implementação de componentes visuais em React foi padronizada para garantir a consistência da UX/UI, facilitando a manutenibilidade do código e a extensibilidade futura da aplicação.",
+      "A modelagem do banco de dados NoSQL (MongoDB) foi desenhada para suportar alta volumetria, otimizando o tempo de resposta das queries para as métricas de desempenho."
     ],
     "softSkills": [
       {
-        "name": "Solução de Problemas",
-        "description": "Atuei na resolução de conflitos complexos de integração entre diferentes features do Java, diagnosticando erros de comunicação entre módulos e implementando correções que garantiram a estabilidade do sistema."
+        "name": "Visão Sistêmica e Arquitetural",
+        "description": "A necessidade de integrar frontend, backend e banco de dados exigiu uma compreensão holística do sistema, permitindo a antecipação de gargalos de performance e a tomada de decisões projetuais que priorizaram a robustez da solução final."
       },
       {
-        "name": "Proatividade",
-        "description": "Mantive um ritmo de trabalho constante e autogerenciado, buscando ativamente novas tarefas, refatorações ou documentações para adiantar sempre que finalizava minhas entregas prioritárias."
+        "name": "Resolução de Problemas Complexos",
+        "description": "O desafio de implementar autenticação segura em uma arquitetura distribuída demandou uma abordagem analítica para solucionar conflitos de estado e garantir a sincronização de dados em tempo real."
       },
       {
-        "name": "Autonomia e Aprendizado Ágil",
-        "description": "Conduzi o desenvolvimento de funcionalidades completas de forma independente. Mesmo diante de lacunas de conhecimento técnico, pesquisei e apliquei novas soluções por conta própria para garantir a entrega."
+        "name": "Autonomia e Gestão de Tempo",
+        "description": "A condução do desenvolvimento de ponta a ponta requereu uma rigorosa organização pessoal e priorização de tarefas críticas, assegurando que as entregas de valor fossem cumpridas dentro do cronograma."
       }
     ]
   },
@@ -40,55 +41,54 @@
     "subtitle": "Aplicação para controle de finanças de empresas parceiras",
     "technologies": ["React", "TypeScript", "Next.JS", "MySQL", "Chart.js"],
     "link": "https://github.com/ORBIS-2DSM-API/orbis-main",
-    "status": "Em Desenvolvimento",
-    "description": "Dashboard interativo focado em oferecer visualização clara da saúde financeira. O desafio principal foi transformar dados brutos e complexos em gráficos intuitivos para tomadores de decisão não-técnicos.",
+    "status": "Concluído",
+    "description": "Dashboard interativo focado em oferecer visualização clara da saúde financeira. O desafio principal foi transformar dados brutos e complexos em gráficos intuitivos para tomadores de decisão, utilizando processamento otimizado de dados.",
     "contributions": [
-      "Desenvolvi a lógica de processamento de dados no front-end para reduzir a carga no servidor.",
-      "Criei a integração com a biblioteca Chart.js para renderizar gráficos dinâmicos de fluxo de caixa.",
-      "Implementei o sistema de exportação de relatórios em PDF e Excel automatizados.",
-      "Refatorei o código legado de JavaScript para TypeScript, aumentando a segurança e manutenibilidade."
+      "A arquitetura do Front-end foi desenvolvida focando na otimização do processamento de dados no lado do cliente, reduzindo a latência e a carga no servidor principal.",
+      "A integração com a biblioteca Chart.js foi customizada para permitir a renderização dinâmica de gráficos de fluxo de caixa, facilitando a análise visual de tendências financeiras.",
+      "A refatoração do código legado de JavaScript para TypeScript foi implementada para aumentar a tipagem estática, garantindo maior segurança na execução e manutenibilidade do código a longo prazo."
     ],
     "softSkills": [
       {
-        "name": "Pensamento Crítico",
-        "description": "Analisei os requisitos de negócio e sugeri a mudança de renderização Client-Side para Server-Side (Next.js), melhorando o SEO e a performance inicial."
+        "name": "Pensamento Crítico e Analítico",
+        "description": "A análise dos requisitos de negócio fundamentou a decisão de migrar a renderização para Server-Side (Next.js), o que resultou em uma melhoria significativa no SEO e na performance inicial da aplicação."
       },
       {
-        "name": "Proatividade",
-        "description": "Mantive um ritmo de trabalho constante e autogerenciado, buscando ativamente novas tarefas, refatorações ou documentações para adiantar sempre que finalizava minhas entregas prioritárias."
+        "name": "Proatividade e Autogestão",
+        "description": "A postura proativa na busca por refatorações e documentação técnica garantiu que o débito técnico fosse mantido sob controle, permitindo um ciclo de desenvolvimento mais ágil."
       },
       {
-        "name": "Assertividade",
-        "description": "Durante as code reviews, fui capaz de apontar falhas estruturais no código dos colegas de forma construtiva, propondo soluções que foram adotadas pelo time."
+        "name": "Comunicação Assertiva",
+        "description": "A participação ativa nas revisões de código (Code Reviews) permitiu a identificação precoce de falhas estruturais, onde a proposição de soluções construtivas elevou a qualidade técnica das entregas do time."
       }
     ]
   },
   {
     "id": 3,
     "title": "DemoQuerycy - Dados dos Vereadores",
-    "subtitle": "Plataforma de dados sobre a atuação dos vereadores de SJC",
+    "subtitle": "Plataforma de transparência legislativa e análise de dados",
     "technologies": ["JavaScript", "Python", "HTML5", "CSS3", "MySQL", "Flask"],
     "link": "https://github.com/AgileKrakens/DemoQuerycy",
     "status": "Concluído",
-    "description": "A plataforma apresenta dados sobre a atuação dos vereadores de São José dos Campos (mandato 2020-2024) de forma objetiva, visual e acessível. O projeto visa traduzir dados legislativos complexos em informações visuais para o cidadão.",
+    "description": "A plataforma DemoQuerycy foi concebida para democratizar o acesso à informação legislativa. O projeto traduz dados complexos do mandato 2020-2024 de São José dos Campos em visualizações acessíveis, promovendo a transparência pública através da tecnologia.",
     "contributions": [
-      "Liderei o desenvolvimento do Front-end, traduzindo os protótipos de alta fidelidade do Figma para código funcional, garantindo fidelidade visual e responsividade.",
-      "Atuei no Back-end auxiliando na criação e manutenção dos scripts de Web Scraping em Python (BeautifulSoup/Selenium) para a extração inicial dos dados do portal da câmara.",
-      "Realizei a integração completa entre a interface do usuário e o Back-end, consumindo os dados processados para gerar visualizações dinâmicas.",
-      "Implementei a lógica de filtragem e busca no lado do cliente (Client-Side) para otimizar a experiência de navegação nos relatórios."
+      "A liderança técnica no desenvolvimento do Front-end garantiu a transposição fidedigna dos protótipos de alta fidelidade para interfaces funcionais, assegurando a responsividade e a acessibilidade da informação em diferentes dispositivos.",
+      "A colaboração no Back-end envolveu a implementação e manutenção de algoritmos de Web Scraping em Python (utilizando BeautifulSoup e Selenium), essenciais para a extração automatizada e integridade da base de dados legislativa.",
+      "A integração fullstack entre a interface do usuário e as APIs do Back-end foi realizada para permitir o consumo eficiente dos dados processados, gerando visualizações dinâmicas em tempo real.",
+      "A implementação de lógicas de filtragem no lado do cliente (Client-Side) foi otimizada para melhorar a experiência do usuário, permitindo a análise granular dos dados sem comprometer a performance da aplicação."
     ],
     "softSkills": [
       {
         "name": "Adaptabilidade Técnica",
-        "description": "Demonstrei flexibilidade ao atuar fora da minha zona de conforto principal (Front-end), mergulhando no código Python para auxiliar a equipe de dados na estruturação dos scrapers."
+        "description": "A necessidade de atuar em um escopo multidisciplinar exigiu flexibilidade para transitar entre o desenvolvimento Front-end e a estruturação de scripts de dados em Python, garantindo a coesão entre a coleta e a exibição da informação."
       },
       {
-        "name": "Trabalho em Equipe",
-        "description": "Atuei como uma ponte entre o time de Design e o Back-end, garantindo que as interfaces desenhadas fossem tecnicamente viáveis e que os dados coletados fossem exibidos corretamente."
+        "name": "Trabalho em Equipe e Integração",
+        "description": "A atuação como ponto focal entre as equipes de Design e Engenharia de Dados assegurou que as interfaces projetadas fossem tecnicamente viáveis e que os dados extraídos fossem apresentados com clareza e precisão."
       },
       {
-        "name": "Foco na Experiência do Usuário",
-        "description": "Priorizei a usabilidade na construção das interfaces, transformando planilhas de dados brutos em layouts intuitivos que facilitam o entendimento político por parte do usuário final."
+        "name": "Foco na Experiência do Usuário (UX)",
+        "description": "A priorização da usabilidade durante a construção das interfaces permitiu transformar conjuntos de dados brutos e complexos em layouts intuitivos, facilitando a compreensão do cenário político pelo cidadão comum."
       }
     ]
   }
