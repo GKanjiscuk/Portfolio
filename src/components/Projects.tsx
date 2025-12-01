@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight, Database, Layout, Server, Code2 } from 'lucide-react';
 
 import { ProjectModal, type Project } from './ProjectsModal'; 
-
 import projectsRaw from '../data/projects.json';
 
 const projectsData = projectsRaw as Project[];
@@ -20,50 +19,84 @@ export const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id='projects' className="w-full px-8 md:px-16 lg:px-24 py-16 lg:py-32 relative">
-      <motion.h2 
-        className="text-2xl text-gray-400 mb-12"
+    <section id='projects' className="w-full px-4 md:px-16 lg:px-24 py-16 lg:py-32 relative">
+      {/* Cabeçalho da Seção */}
+      <motion.div 
+        className="flex items-end justify-between mb-12 px-2 md:px-4"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        Projetos Desenvolvidos
-      </motion.h2>
+        <h2 className="text-2xl text-gray-400">
+          Projetos Desenvolvidos
+        </h2>
+        <span className="text-xs text-gray-600 uppercase tracking-widest hidden md:block">
+          Clique para ver detalhes
+        </span>
+      </motion.div>
 
-      <div className="w-full">
+      {/* Lista de Projetos */}
+      <div className="w-full flex flex-col gap-3">
         {projectsData.map((project) => (
           <motion.div 
             key={project.id} 
             onClick={() => setSelectedProject(project)}
-            className="w-full border-t border-gray-700 py-8 flex justify-between items-center group cursor-pointer"
+            className="w-full border-t border-gray-800/50 py-8 px-4 md:px-8 flex justify-between items-center group cursor-pointer hover:bg-gray-800/40 transition-all duration-300 rounded-2xl relative overflow-hidden"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <div className="flex flex-col">
-              <h3 className="text-3xl md:text-5xl font-bold text-gray-200 group-hover:text-orange-400 transition-colors duration-300">
+            {/* Informações do Projeto */}
+            <div className="flex flex-col z-10 max-w-[70%]">
+              <h3 className="text-2xl md:text-4xl font-bold text-gray-200 group-hover:text-orange-400 transition-colors duration-300">
                 {project.title}
               </h3>
-              <p className="text-md text-gray-500 mt-2">{project.subtitle}</p>
+              <p className="text-sm md:text-md text-gray-500 mt-2 group-hover:text-gray-300 transition-colors">
+                {project.subtitle}
+              </p>
             </div>
             
-            <div className="hidden md:flex items-center gap-4">
-              <div className="flex gap-2">
+            {/* Ícones e Botão de Ação */}
+            <div className="hidden md:flex items-center gap-6 z-10">
+              {/* Texto "Ver Detalhes" (Animação no Hover) */}
+              <div className="overflow-hidden h-6 flex items-center justify-end">
+                <span className="text-sm font-medium text-orange-400 opacity-0 translate-y-4 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 block">
+                  Ver detalhes
+                </span>
+              </div>
+
+              {/* Tecnologias */}
+              <div className="flex gap-2 opacity-60 group-hover:opacity-100 transition-opacity duration-300">
                 {project.technologies.slice(0, 3).map(tech => (
-                  <div key={tech} className="bg-gray-800 p-2 rounded-full text-gray-400 border border-gray-700">
+                  <div 
+                    key={tech} 
+                    className="bg-gray-900/50 p-2 rounded-full text-gray-400 border border-gray-700/50 group-hover:border-orange-500/30 transition-colors"
+                  >
                     {getListIcon(tech)}
                   </div>
                 ))}
               </div>
-              <ArrowUpRight className="text-gray-500 transform transition-transform duration-300 group-hover:scale-110 group-hover:text-orange-400" size={32} />
+              
+              {/* Seta / Botão */}
+              <div className="bg-gray-800/80 p-3 rounded-full group-hover:bg-orange-600 group-hover:text-white transition-all duration-300 shadow-lg shadow-transparent group-hover:shadow-orange-900/20">
+                <ArrowUpRight 
+                  className="text-gray-400 group-hover:text-white transform transition-transform duration-300 group-hover:rotate-45" 
+                  size={24} 
+                />
+              </div>
+            </div>
+
+            {/* Seta simples para Mobile (aparece quando a div de cima está oculta) */}
+            <div className="md:hidden text-gray-600 group-hover:text-orange-400 transition-colors">
+               <ArrowUpRight size={24} />
             </div>
           </motion.div>
         ))}
-        <div className="border-t border-gray-700"></div>
       </div>
 
+      {/* Modal */}
       <AnimatePresence>
         {selectedProject && (
           <ProjectModal 
