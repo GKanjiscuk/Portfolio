@@ -9,7 +9,8 @@ import {
   Globe,
   Database,
   Server,
-  Terminal
+  Terminal,
+  Lightbulb // NOVO ÍCONE
 } from "lucide-react";
 
 import { FaJava, FaDocker, FaAws, FaNodeJs } from "react-icons/fa";
@@ -37,6 +38,7 @@ export type Project = {
   technologies: string[];
   contributions: string[];
   softSkills: { name: string; description: string }[];
+  futureLearning?: string; // NOVO CAMPO OPCIONAL
 };
 
 interface ProjectModalProps {
@@ -266,6 +268,18 @@ export const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
                 ))}
               </div>
             </div>
+
+            {/* NOVA SEÇÃO: Aprendizados e Futuro (Condicional) */}
+            {project.futureLearning && (
+              <div className="bg-gray-800/20 p-6 rounded-lg border border-gray-700/50">
+                <h4 className="text-yellow-400 font-semibold mb-3 flex items-center gap-2">
+                  <Lightbulb size={18} /> Aprendizados e Considerações Futuras
+                </h4>
+                <p className="text-gray-300 leading-relaxed">
+                  {project.futureLearning}
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Footer */}
